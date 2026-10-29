@@ -11,11 +11,11 @@ strict_cookies = true
 public_base_url = "http://localhost:3000"
 
 [user_limits]
-max_apps_per_user = 10
+max_apps_per_user = 1000
 max_asset_size = 8_000_000
 max_asset_storage_per_app = 500_000_000
 max_bundles_per_user = 100
-max_api_tokens_per_user = 25
+max_api_tokens_per_user = 25000
 
 [engine]
 max_stack_depth = 100
@@ -70,15 +70,15 @@ price = 0
 default = true
 feature_max_collaborators = 3
 feature_usage_credits_per_month = 10000
-feature_max_guilds = 100
-feature_max_commands = 25
-feature_max_variables = 25
-feature_max_secrets = 10
-feature_max_messages = 25
-feature_max_event_listeners = 10
+feature_max_guilds = 100000
+feature_max_commands = 25000
+feature_max_variables = 250000
+feature_max_secrets = 1000
+feature_max_messages = 2500000
+feature_max_event_listeners = 1000000
 feature_priority_support = false
 feature_rotating_status = false
-feature_max_scheduled_event_listeners = 5
+feature_max_scheduled_event_listeners = 500
 feature_min_schedule_interval_seconds = 300
-feature_max_webhook_event_listeners = 5
-feature_max_ai_prompts_per_month = 2
+feature_max_webhook_event_listeners = 500
+feature_max_ai_prompts_per_month = 2000
